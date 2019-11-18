@@ -8356,4 +8356,5 @@ p {
 #onderzoek {
   height: 100vh;
   background-image: url(../images/summary1.png);
-  background-size: contain; }
+  background-size: contain;
+  background-repeat: no-repeat; }
