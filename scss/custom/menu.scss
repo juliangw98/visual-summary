@@ -1,0 +1,202 @@
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+
+.navbar-default {
+
+   .navbar-brand {
+     margin-top: 10px;
+     color: white;
+
+      &:hover {
+         color: #C57ED3;
+         border: 1px solid #C57ED3;
+      }
+   }
+
+  .navbar-nav {
+
+    > li {
+
+      > a {
+        color: white;
+        margin: 10px 5px 5px 5px;
+
+      }
+      > a:hover, > a:active, > a:focus {
+        color: #C57ED3;
+        border: 1px solid #C57ED3;
+      }
+      > a:visited {
+        color: #C57ED3;
+        text-decoration: none;
+      }
+
+    } //end li
+
+    > .active {
+
+      > a, > a:hover, > a:focus {
+        background-color: transparent;
+        color: #C57ED3;
+      }
+
+    }
+
+  } //end .navbar-nav
+
+  //Collapsed styles
+  .navbar-toggle {
+    border-color: #C57ED3;
+
+      &:hover, &:focus {
+        background-color: #490D40;
+      }
+
+
+
+      .icon-bar {
+        color: #C57ED3;
+        background-color: #C57ED3;
+
+      }
+  }
+
+  .navbar-collapse.collapse.in ul {
+    background-color: #490D40;
+  }
+
+} //end .navbar-default
+
+
+
+/* Solid class attached on scroll past first section */
+
+.navbar.solid {
+  background-color: white!important;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+
+    .navbar-brand {
+      color: $primary;
+      transition: color 1s ease 0s;
+    }
+
+    .navbar-nav {
+
+       > li {
+
+          > a {
+            color: $primary;
+            transition: color 1s ease 0s;
+          }
+
+       } //end li
+
+    } //end .navbar-nav
+
+}
+
+
+#menu {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      font-size: 1.2em;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      p{
+        font-size: 1em;
+      }
+
+      .omschrijving {
+        font-size: 0.7em;
+      }
+
+      div {
+
+      }
+    }
+  }
+
+  .noodles {
+    background-image: url("../images/phadthai.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+  }
+
+  .curry {
+    background-image: url("../images/thai.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+
+  }
+
+  .rice {
+    background-image: url("../images/rice.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+
+  }
+
+  .wok {
+    background-image: url("../images/wok.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+
+  }
+
+  .snack {
+    background-image: url("../images/snack.JPG");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+
+  }
+
+  .soup {
+    background-image: url("../images/soup.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+
+  }
+
+  .salad {
+    background-image: url("../images/salad.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    height: 40vh;
+    width: 100%;
+    filter: drop-shadow(0 0 0.75rem #333);
+
+  }
+}

@@ -1,0 +1,54 @@
+// Small devices (landscape phones, 576px and up)
+#banner {
+  // background-image: url("../images/thai.jpg");
+  height: 100vh;
+  width: 100%;
+  #welcome{
+    padding:50px;
+    padding-top: 20vh;
+
+  }
+  h1{
+    color:black;
+  }
+  .btn {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+  #banner {
+    // background-image: url("../images/thai.jpg");
+    height: auto;
+    width: 100%;
+    #welcome{
+      padding:50px;
+      padding-top: 20vh;
+
+    }
+    h1{
+      color:black;
+    }
+    .btn {
+      color: white;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
